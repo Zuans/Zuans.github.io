@@ -1,4 +1,8 @@
 
+@font-face {
+    font-family: gang of three;
+    src: url(font\go3v2.ttf);
+}
 
 /* Ultility */
 
@@ -146,9 +150,10 @@
 
 @media (min-width:992px) {
     .navbar-brand{
-        font-size: 32px;
+        font-size: 40px;
         color: rgb(204, 103, 9)!important;
         text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.75);
+        font-family: gang of three;
     }
     .nav-item {
         text-transform: uppercase;
